@@ -1,5 +1,5 @@
 //Program to calculate the Simple interest using the avail data
-//22/8/1997
+//Vrushank M_22/8/2023
 #include<stdio.h>
 main()
 {

@@ -1,0 +1,18 @@
+//Program to calculate the Simple interest using the avail data
+//22/8/1997
+#include<stdio.h>
+main()
+{
+    int p,t,r;
+    float si;
+    si=(p*t*r)/100;
+    
+    p=100000;//amount loaned
+    t=1;//in years
+    r=9;//rate of interest
+    
+    si=(p*t*r)/100;
+    
+    printf("%0.2f/-", si);
+    printf(" is the interest to be paid for %d amount for %d year.", p, t );
+}

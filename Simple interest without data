@@ -1,0 +1,19 @@
+//29/08/2023
+//Simple interest calculation giving option to enter data
+#include<stdio.h>
+int p, t, si;
+float r;
+main()
+{
+    printf("Enter the principle amount taken:");
+    scanf("%d", &p);
+    
+    printf("Enter the time needed to repay the loan:");
+    scanf("%d", &t);
+    
+    printf("Enter the rate of interest:");
+    scanf("%f", &r);
+    si=(p*t*r)/100;
+    
+    printf("%d is the interest for %d year", si, t);
+}

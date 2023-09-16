@@ -1,0 +1,16 @@
+/*program to calculate perimeter of rectangle*/
+#include<stdio.h>
+int main()
+{
+int length, breadth, perimeter;
+printf("length of the rectangle: \n");
+scanf("%d", &length);
+
+printf("breadth of the rectangle: \n");
+scanf("%d", &breadth);
+     
+perimeter= 2*(length+breadth);
+printf("Perimeter of the retangle is %d", perimeter);
+
+return 0;               
+}

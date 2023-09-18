@@ -1,0 +1,20 @@
+//Identify Even or odd num
+#include<stdio.h>
+int main()
+{
+int num, even, odd;
+
+printf("Enter a number: ");
+scanf("%d", &num);
+
+printf(" %d", num);
+if(num%2==0)
+{
+    printf(" is even");
+}
+else
+{
+    printf(" is odd");
+}
+return 0;
+}

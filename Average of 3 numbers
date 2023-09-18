@@ -1,0 +1,13 @@
+//Average of 3 numbers
+#include<stdio.h>
+int main()
+{
+    float a,b,c;
+
+    printf("Enter any 3 numbers(each number followed by enter key)\n");
+    scanf("%f %f %f", &a, &b, &c );
+    float avg=(a+b+c)/3;
+
+    printf("The average of 3 numbers is %f", avg);
+return 0;
+}

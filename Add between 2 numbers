@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+  int i,j,m,sum=0;
+  printf("Adds all numbers between 2 numbers entered\n");
+
+  printf("Enter a number to start: ");
+  scanf("%d", &i);
+  printf("Enter a number to end: ");
+  scanf("%d", &j);
+
+  for (m=i; m<=j; m++)
+  {
+    sum=sum+m;
+    printf("%d\n", sum);
+  }
+  printf("The sum between number %d and %d is: %d\n", i,j,sum);
+
+  return 0;
+}

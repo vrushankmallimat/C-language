@@ -1,0 +1,32 @@
+#include<stdio.h>
+void nam();
+void banj();
+char ch;
+
+int main()
+{
+{
+ printf("Type i for Indian and f for French\n");
+ scanf("%c", &ch);
+}
+
+if(ch=='i')
+{
+  nam();
+}
+
+else
+{
+  banj();
+}
+}
+
+void nam()
+{
+  printf("Namaste ji\n");
+}
+
+void banj()
+{
+  printf("Banjour selor");
+}

@@ -1,0 +1,20 @@
+#include<stdio.h>
+float sum(float a, float b);
+int main()
+{
+  float a,b;
+
+  printf("Enter a number: ");
+  scanf("%f", &a);
+
+  printf("\nEnter second number: ");
+  scanf("%f", &b);
+  float s=sum(a,b);
+  printf("%0.2f", s);
+  return 0;
+}
+
+float sum(float x, float z)
+{
+  return x+z;
+}

@@ -1,0 +1,19 @@
+#include<stdio.h>
+float FPrice(float val);
+int main()
+{
+  float val;
+  printf("Enter the price of the product: ");
+  scanf("%f", &val);
+
+  FPrice(val);
+
+  return 0;
+}
+
+float FPrice(float val)
+{
+  val= val+(0.18 * val);
+  printf("The Final price including taxes is: %f", val);
+  //return 0;
+}

@@ -1,0 +1,57 @@
+//calculates area of retangle, circle or square
+#include<stdio.h>
+int rect(int l, int b);
+float cir(int r);
+int sqr(int s);
+int main()
+{
+  char ch;
+  printf("Enter:\n r for rectangle\n c for circle\n s for square");
+  printf("\nWhat is your choice: ");
+  scanf("%c", &ch);
+
+  switch(ch)
+  {
+    case 'r': rect('l','b');
+    break;
+    case 'c': cir('r');
+    break;
+    case 's': sqr('s');
+
+  }
+}
+
+int rect(int l, int b)
+{
+  printf("Enter length: ");
+  scanf("%d", &l);
+
+  printf("Enter breadth: ");
+  scanf("%d", &b);
+
+  printf("Area of rectangle is: %d", l*b);
+
+  return 0;
+  
+}
+
+float cir(int r)
+{
+  printf("Enter radius: ");
+  scanf("%d", &r);
+  printf("Area of circle is: %f", 3.142*r*r);
+  
+  return 0;
+  
+}
+
+
+int sqr(int s)
+{
+  printf("Enter length of the side: ");
+  scanf("%d", &s);
+  printf("Area of square is: %d", s*s);
+
+  return 0;
+  
+}

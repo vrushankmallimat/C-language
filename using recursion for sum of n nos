@@ -1,0 +1,25 @@
+//using recursion in function to find sum of n numbers
+#include<stdio.h>
+int sum(int n);
+int main()
+{
+  int n;
+
+  printf("Enter a number: ");
+  scanf("%d", &n);
+
+  printf("The sum till %d is: %d", n, sum(n));
+
+  return 0;
+}
+
+int sum(int n)
+{
+  if(n==1)
+  {
+    return 1;
+  }
+  int sumN1=sum(n-1);
+  int sumN=sumN1+n;
+  return sumN;
+}

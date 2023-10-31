@@ -1,0 +1,24 @@
+//Using recursion function for factorial of number
+#include<stdio.h>
+int fact(int n);
+int main()
+{
+printf("The facrorial of %d is: %d", 5, fact(5));
+return 0;
+}
+
+int fact(int n)
+{
+
+  if (n==0)
+  {
+    return 1;
+  }
+
+  {
+    int facN1=fact(n-1);
+    int facn=facN1*n;
+    return facn;
+  }
+
+}

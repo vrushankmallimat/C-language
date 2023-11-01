@@ -1,0 +1,18 @@
+//Understanding pointers
+#include<stdio.h>
+int main()
+{
+  int var;
+  int *ptr;
+
+   ptr = &var;
+  *ptr = 5;
+  
+  printf("Pointer %u has value of variable (%d)", ptr, var);
+
+  *ptr += 5;
+  printf("\nValue of variable is now %d", var);
+
+  (*ptr)++;
+  printf("\nIncrement done do the pointer gives the value of %d to variable", var);
+}

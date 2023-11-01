@@ -1,4 +1,4 @@
-//Understanding pointers
+//Storing data in a variable using pointers
 #include<stdio.h>
 int main()
 {
